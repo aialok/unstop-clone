@@ -1,0 +1,553 @@
+body {
+    color: #1c4980;
+}
+
+#navbar {
+    background-color: rgb(255, 255, 255);
+    margin-top: 0px;
+    display: flex;
+    padding-top: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+
+
+}
+
+#nav-btn {
+    border-radius: 40px;
+    margin-right: 10px;
+    width: 90px;
+}
+
+.nav-item {
+
+    display: flex;
+    margin-right: 50px
+}
+
+.para-navbar {
+    font-size: 12px;
+
+    color: #1c4980;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+.middle-container {
+
+    margin: 40px auto 0px auto;
+}
+
+.input-nav {
+    border: none;
+    outline: none;
+    color: #31619b;
+    background-color: rgb(248, 247, 247);
+
+
+}
+
+.input {
+    height: 35px;
+    width: 19%;
+    padding: 4px;
+    border-radius: 8px;
+    background-color: rgb(248, 247, 247);
+    color: #1c4980;
+    box-sizing: border-box;
+    border: 1px solid;
+    outline: none;
+
+
+}
+
+.icons img {
+    width: 20px;
+    height: 20px;
+    margin-left: 40px;
+
+
+
+}
+
+
+.icons {
+    display: flex;
+    list-style: none;
+    font-size: 12px;
+    text-align: center;
+}
+
+.icon-img {
+    transition: 0.3s;
+
+}
+
+.icon-img:hover {
+    fill: #1c4980;
+    transform: translate(0, -10px);
+
+}
+
+.icon-text:hover {
+    text-decoration: underline;
+    text-decoration-color: #1c4980;
+    text-decoration-thickness: 50%;
+}
+
+
+
+
+.icon-text {
+
+    padding-left: 40px;
+    padding-top: 2px;
+    cursor: pointer;
+    color: #1c4980;
+    font-weight: 600;
+
+}
+
+.left-part {
+    width: 50%;
+    float: left;
+    /* margin-left: 20px; */
+    padding: 100px;
+    color: #1c4980;
+
+    height: 550px;
+
+
+}
+
+.h1-left-part {
+    font-size: 55px;
+    font-weight: 700;
+
+}
+
+/* .right-part
+{  
+    padding: 20px;
+    margin-left: 51%;
+    height: 550px;
+   
+    
+
+} */
+.right-part {
+    padding: 60px;
+    height: 550px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0px;
+    row-gap: 30px;
+    color: #1c4980;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+.learn {
+
+    background-image: url(https://cdn.unstop.com/uploads/images/home/home-hero-learn.png?d=324x406);
+    background-size: cover;
+
+}
+
+.practice {
+    background-image: url(https://cdn.unstop.com/uploads/images/home/home-hero-practice.png?d=324x406);
+    background-size: cover;
+    border-radius: 5px;
+
+}
+
+.mentorship {
+    background-image: url(https://cdn.unstop.com/uploads/images/home/home-hero-mentorships.png?d=324x406);
+    background-size: cover;
+    border-radius: 5px;
+
+}
+
+.compete {
+    background-image: url(https://cdn.unstop.com/uploads/images/home/home-hero-compete.png?d=324x406);
+    background-size: cover;
+    border-radius: 5px;
+
+}
+
+.jobs {
+    background-image: url(https://cdn.unstop.com/uploads/images/home/home-hero-jobs.png?d=324x406);
+    background-size: cover;
+    border-radius: 5px;
+
+}
+
+.blogs {
+    background-image: url(https://cdn.unstop.com/uploads/images/home/home-hero-blogs.png?d=324x406);
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.items span {
+
+    padding: 5px;
+    display: inline-block;
+    position: relative;
+    height: 200px;
+    width: 160px;
+
+
+
+}
+
+.items {
+
+    transition: 0.3s;
+}
+
+.items:hover {
+    transform: translate(0, -10px);
+}
+
+
+
+.industry {
+    width: 100%;
+    color: #1c4980;
+    height: 120px;
+
+}
+
+.left-industry {
+
+    display: block;
+    padding: 40px;
+    float: left;
+    height: 120px;
+
+
+}
+
+.right-industry img {
+    height: 50px;
+    width: 125px;
+}
+
+.right-industry {
+    height: 120px;
+    padding: 40px;
+}
+
+.company-name {
+    margin-left: 30px;
+
+}
+
+.scroller {
+    height: 150px;
+    background-color: aliceblue;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 8px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    box-shadow: 2px 2px 2px 2px rgba(30, 77, 106, 0.12);
+
+}
+
+.scroller img {
+    border-radius: 5px;
+}
+
+.all-three {
+    display: grid;
+    justify-items: center;
+    
+    height: 500px;
+    grid-template-columns: 1fr 1fr 1fr;
+
+
+    padding: 60px;
+
+}
+
+.items-2 span {
+    display: inline-block;
+    position: relative;
+    width: 330px;
+    height: 240px;
+    font-size: 25px;
+    color: #1c4980;
+    text-align: center;
+    padding-top: 170px;
+    font-weight: 500;
+
+
+}
+
+.learn-1 {
+    background-image: url(https://cdn.unstop.com/uploads/images/home/learn-bg-image.png?d=747x534);
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+.practice-1 {
+    background-image: url(https://cdn.unstop.com/uploads/images/home/practice-bg-image.png?d=747x533);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.mentorship-1 {
+    background-image: url(https://cdn.unstop.com/uploads/images/home/mentorships-bg-new.png?d=747x534);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.items-2 {
+    transition: 0.3s;
+}
+
+.items-2:hover {
+    transform: translate(0, -10px);
+}
+
+
+.explore-1 {
+
+    line-height: 0.2;
+    height: 50px;
+    margin: 0px 70px;
+    width: 80%;
+}
+
+.explore-2 {
+
+    display: grid;
+
+    width: 100%;
+    height: 250px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    
+    padding: 60px;
+
+}
+
+
+
+
+.items-3 span {
+    display: inline-block;
+    position: relative;
+    width: 280px;
+    height: 167px;
+    font-size: 25px;
+    color: #1c4980;
+    font-size: 18px;
+    padding-left: 10px;
+
+
+}
+.items-3 {
+    transition: 0.3s;
+}
+
+.items-3:hover {
+    transform: translate(0, -10px);
+}
+
+.college {
+    background-image: url(https://cdn.unstop.com/uploads/images/compete/student.png?d=560x340);
+    background-size: cover;
+
+    border-radius: 20px;
+
+}
+
+.working {
+    background-image: url(https://d8it4huxumps7.cloudfront.net/uploads/images/63d112f8a025d_professional.png?d=560x340);
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+.team {
+    background-image: url(https://d8it4huxumps7.cloudfront.net/uploads/images/63da479e86649_teams_new.png?d=560x340);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.individual {
+    background-image: url(https://d8it4huxumps7.cloudfront.net/uploads/images/63da47fe2c821_solo_new.png?d=560x340);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.jobs {
+    background-image: url(https://cdn.unstop.com/uploads/images/home/job.png?d=570x340);
+    background-size: cover;
+}
+
+.internship {
+    background-image: url(https://cdn.unstop.com/uploads/images/home/internship.png?d=570x340);
+    background-size: cover;
+}
+
+.hiring {
+    background-image: url(https://cdn.unstop.com/uploads/images/home/hiring-challenges.png?d=570x340);
+    background-size: cover;
+}
+
+.paid-internship {
+    background-image: url(https://cdn.unstop.com/uploads/images/home/paid-internship.png?d=570x340);
+    background-size: cover;
+}
+.featured{
+    background-color: #edf0f3;
+    height: 500px;
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    display: relative;
+    
+    margin-bottom: 100px;
+}
+
+.featured-heading{
+    padding-left: 30px;
+    padding-top: 10px;
+
+}
+
+
+#featured-carousel{
+    width: 1100px;
+    height: 335px;
+    margin: 0px auto;
+    overflow: hidden;
+    margin-top: 30px;
+    
+    
+    
+}
+.money-div-1
+{
+    height: 200px;
+    border: 1px solid #DDE5EA;
+    width: 120vh;
+    margin-left: 230px;
+    border-radius: 30px 30px 0px 30px;
+    display: flex;
+}
+.money-div-2
+{
+    height: 200px;
+    border: 1px solid #DDE5EA;
+    margin-bottom: 100px;
+    width: 120vh;
+    margin-left: 400px;
+    border-radius: 0px 30px 30px 30px;
+    display: flex;
+}
+.money-small-div
+{
+    width: 40vh;
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: #DDE5EA;
+    position: relative;
+}
+.money-small-inside-div
+{
+    background-color: #f4e9df;
+    height: 110px;
+    width: 15vh;
+    border-radius: 90px;
+    position: absolute;
+    left: 70px;
+    top: 40px;
+    position: relative;
+}
+
+.money-small-inside-text1
+{
+    color: #d77b35;
+    font-size: 55px;
+    font-weight: 600;
+    position: absolute;
+    width: 200px;
+    overflow: visible;
+    top: 40px;
+}
+.money-small-inside-text2
+{
+    color: #d77b35;
+    font-size: 20px;
+    width: 200px;
+    position: absolute;
+    top: 110px;
+    left: 40px;
+   
+}
+
+.download-img{
+    width: 1180px;
+    height: 480px;
+  
+}
+.download{
+    width: 1180px;
+    height: 470px;
+    margin: 0px auto;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.apple-img
+{
+    height: 70px;
+    width: 210px;
+    margin: 10px;
+}
+.google-img
+{
+    height: 70px;
+    width: 210px;
+}
+.links-img-div
+{
+    position: absolute;
+    bottom: 20px;
+    left: 340px;
+}
+
+.footer{
+    width: 80%;
+    margin: 5px auto;
+    text-align: center;
+    line-height: 0px;
+}
+
+.img-footer{
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+
+}
+
+.footer-items{
+    margin: 0px auto;
+    display: flex;
+    font-size: 30px;
+   justify-content: center;
+   
+}
+.para-items{
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    
+}
